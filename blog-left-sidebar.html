@@ -13,6 +13,7 @@
   <link href="assets/css/prettyPhoto.css" rel="stylesheet">
   <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
   <link href="assets/css/flexslider.css" rel="stylesheet">
+
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/color/default.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
@@ -43,22 +44,23 @@
           <div class="container">
             <!-- logo -->
             <div class="logo">
-              <a href="index.html"><img src="assets/img/logo.png" alt="" /></a>
+              <a href="index.html">
+								<img src="assets/img/logo.png" alt="" />
+							</a>
             </div>
             <!-- end logo -->
-
             <!-- top menu -->
             <div class="navigation">
               <nav>
                 <ul class="nav topnav">
-                  <li class="active">
+                  <li>
                     <a href="index.html"><i class="icon-home"></i> Home </a>
                   </li>
                   <li class="dropdown">
                     <a href="#"><i class="icon-cog"></i> Features <i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                       <li><a href="media.html">Media</a></li>
-                      <li><a href="color-scheme.html">10 Theme colors</a></li>
+                      <li><a href="color-scheme.html">8 Theme colors</a></li>
                       <li><a href="buttons.html">Buttons</a></li>
                       <li><a href="components.html">Components</a></li>
                       <li><a href="animations.html">56 Animations</a></li>
@@ -91,7 +93,7 @@
                       <li><a href="portfolio-detail.html">Portfolio detail</a></li>
                     </ul>
                   </li>
-                  <li class="dropdown">
+                  <li class="dropdown active">
                     <a href="#"><i class="icon-book"></i> Blog <i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                       <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
@@ -101,235 +103,180 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a>
+                    <a href="contact.html"><i class="icon-envelope-alt"></i> Contact </a>
                   </li>
                 </ul>
               </nav>
             </div>
             <!-- end menu -->
-
           </div>
         </div>
       </div>
     </header>
-    <section id="intro">
-
+    <!-- Subintro
+================================================== -->
+    <section id="subintro">
       <div class="container">
         <div class="row">
-          <div class="span12">
-            <!-- Place somewhere in the <body> of your page -->
-            <div id="mainslider" class="flexslider">
-              <ul class="slides">
-                <li data-thumb="assets/img/slides/flexslider/img1.jpg">
-                  <img src="assets/img/slides/flexslider/img1.jpg" alt="" />
-                  <div class="flex-caption primary">
-                    <h2>Bootstrap</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-                <li data-thumb="assets/img/slides/flexslider/img2.jpg">
-                  <img src="assets/img/slides/flexslider/img2.jpg" alt="" />
-                  <div class="flex-caption warning">
-                    <h2>Responsive layout</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-                <li data-thumb="assets/img/slides/flexslider/img3.jpg">
-                  <img src="assets/img/slides/flexslider/img3.jpg" alt="" />
-                  <div class="flex-caption success">
-                    <h2>Rich of features</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-              </ul>
+          <div class="span8">
+            <ul class="breadcrumb">
+              <li><a href="#"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+              <li><a href="#">Blog</a><i class="icon-angle-right"></i></li>
+              <li class="active">Blog with left sidebar</li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="search">
+              <form class="input-append">
+                <input class="search-form" id="appendedPrependedInput" type="text" placeholder="Search here.." />
+                <button class="btn btn-dark" type="submit">Search</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-
     </section>
     <section id="maincontent">
       <div class="container">
-
         <div class="row">
-          <div class="span12">
-            <div class="call-action">
-
-              <div class="text">
-                <h2>You should love this stand out call action</h2>
-                <p>
-                  Hover this call action box and see the call action button play nice animation to seek attention
-                </p>
+          <div class="span4">
+            <aside>
+              <div class="widget">
+                <h4 class="rheading">Categories<span></span></h4>
+                <ul class="cat">
+                  <li><a href="#">Web design (114)</a></li>
+                  <li><a href="#">Internet news (15)</a></li>
+                  <li><a href="#">Tutorial and tips (20)</a></li>
+                  <li><a href="#">Design trends (15)</a></li>
+                  <li><a href="#">Online business (10)</a></li>
+                </ul>
               </div>
-              <div class="cta">
-                <a class="btn btn-large btn-theme" href="#">
-							<i class="icon-plane icon-white"></i> Get a quote </a>
+              <div class="widget">
+                <h4 class="rheading">Recent posts<span></span></h4>
+                <ul class="recent-posts">
+                  <li><a href="#">Lorem ipsum dolor sit amet munere commodo ut nam</a>
+                    <div class="clear">
+                    </div>
+                    <span class="date"><i class="icon-calendar"></i> 6 March, 2013</span>
+                    <span class="comment"><i class="icon-comment"></i> 4 Comments</span>
+                  </li>
+                  <li><a href="#">Sea nostrum omittantur ne mea malis nominavi insolens</a>
+                    <div class="clear">
+                    </div>
+                    <span class="date"><i class="icon-calendar"></i> 6 March, 2013</span>
+                    <span class="comment"><i class="icon-comment"></i> 2 Comments</span>
+                  </li>
+                  <li><a href="#">Eius graece recusabo no pri odio tale quo id, mea at saepe</a>
+                    <div class="clear">
+                    </div>
+                    <span class="date"><i class="icon-calendar"></i> 4 March, 2013</span>
+                    <span class="comment"><i class="icon-comment"></i> 12 Comments</span>
+                  </li>
+                  <li><a href="#">Malorum deserunt at nec usu ad graeco elaboraret at rebum</a>
+                    <div class="clear">
+                    </div>
+                    <span class="date"><i class="icon-calendar"></i> 3 March, 2013</span>
+                    <span class="comment"><i class="icon-comment"></i> 3 Comments</span>
+                  </li>
+                </ul>
               </div>
-
-            </div>
-            <!-- end tagline -->
+              <div class="widget">
+                <h4 class="rheading">Post tags<span></span></h4>
+                <ul class="tags">
+                  <li><a href="#" class="btn">Tutorial</a></li>
+                  <li><a href="#" class="btn">Tricks</a></li>
+                  <li><a href="#" class="btn">Design</a></li>
+                  <li><a href="#" class="btn">Trends</a></li>
+                  <li><a href="#" class="btn">Online</a></li>
+                </ul>
+              </div>
+            </aside>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="span3 features e_pulse">
-            <img src="assets/img/dummies/img1.jpg" alt="" />
-            <div class="box">
-              <div class="divcenter">
-                <a href="#"><i class="icon-circled icon-48 icon-magic active icon"></i></a>
-                <h4>Responsive <br />twitter bootstrap</h4>
+          <div class="span8">
+            <!-- start article 1 -->
+            <article class="blog-post">
+              <div class="post-heading">
+                <h3><a href="#">This is an example of standard post format</a></h3>
               </div>
-            </div>
-          </div>
-
-          <div class="span3 features e_pulse">
-            <img src="assets/img/dummies/img2.jpg" alt="" />
-            <div class="box">
-              <div class="divcenter">
-                <a href="#"><i class="icon-circled icon-48 icon-briefcase icon"></i></a>
-                <h4>Unparalleled <br />premium support</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="span3 features e_pulse">
-            <img src="assets/img/dummies/img3.jpg" alt="" />
-            <div class="box">
-              <div class="divcenter">
-                <a href="#"><i class="icon-circled icon-48 icon-cogs icon"></i></a>
-                <h4>Valid <br />HTML code</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="span3 features e_pulse">
-            <img src="assets/img/dummies/img4.jpg" alt="" />
-            <div class="box">
-              <div class="divcenter">
-                <a href="#"><i class="icon-circled icon-48 icon-bullhorn icon"></i></a>
-                <h4>Flexible <br />multi usage</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="span12">
-            <h4 class="rheading">Recent works<span></span></h4>
-            <div class="row">
-              <div class="span3">
-
-                <p class="hidden-phone">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in lacus rhoncus elit egestas luctus. Nullam at lectus augue.
-                </p>
-
-                <a href="#" class="btn btn-theme">Read More</a>
-              </div>
-
-              <div class="span9">
-                <div id="latest-work" class="carousel btleft">
-                  <div class="carousel-wrapper">
-                    <ul class="da-thumbs">
-
-                      <li>
-                        <img src="assets/img/dummies/work1.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Serenity theme</p>
-                          </div>
-                        </article>
-                      </li>
-
-                      <li>
-                        <img src="assets/img/dummies/work2.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Dark apps</p>
-                          </div>
-                        </article>
-                      </li>
-
-                      <li>
-                        <img src="assets/img/dummies/work3.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Mobile apps</p>
-                          </div>
-                        </article>
-                      </li>
-
-                      <li>
-                        <img src="assets/img/dummies/work4.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Mobile template</p>
-                          </div>
-                        </article>
-                      </li>
-
-                      <li>
-                        <img src="assets/img/dummies/work5.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Business theme</p>
-                          </div>
-                        </article>
-                      </li>
-
-                      <li>
-                        <img src="assets/img/dummies/work6.jpg" alt="" />
-                        <article class="da-animate da-slideFromRight">
-                          <a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-														<i class="icon-zoom-in icon-rounded icon-48 active"></i>
-													</a>
-                          <a href="portfolio-detail.html">
-														<i class="icon-link icon-rounded icon-48 active"></i>
-													</a>
-                          <div class="hidden-tablet">
-                            <p>Portfolio graphic</p>
-                          </div>
-                        </article>
-                      </li>
-
-                    </ul>
+              <div class="row">
+                <div class="span8">
+                  <div class="post-image">
+                    <a href="#"><img src="assets/img/dummies/blog1.jpg" alt="" /></a>
                   </div>
+                  <ul class="post-meta">
+                    <li class="first"><i class="icon-calendar"></i><span>Mar 13, 2013</span></li>
+                    <li><i class="icon-comments"></i><span><a href="#">4 comments</a></span></li>
+                    <li class="last"><i class="icon-tags"></i><span><a href="#">Design</a>, <a href="#">Blog</a>, <a href="#">Tutorial</a></span></li>
+                  </ul>
+                  <div class="clearfix">
+                  </div>
+                  <p>
+                    Ei eos suavitate forensibus mnesarchum. Eu est timeam vocibus, an nostro aliquam adipiscing quo. Zril equidem et quo, ad albucius scripserit sit. Vis constituto deseruisse an, interesset reprehendunt et mel, gloriatur concludaturque pro no. At ludus mediocritatem
+                    qui, no vituperata assueverit.
+                  </p>
+                  <a href="#" class="btn btn-small btn-theme">Read more</a>
                 </div>
-
               </div>
+            </article>
+            <!-- end article 1 -->
+            <!-- start article 2 -->
+            <article class="blog-post">
+              <div class="post-heading">
+                <h3><a href="#">This post uses nice video post format</a></h3>
+              </div>
+              <div class="row">
+                <div class="span8">
+                  <div class="video-container">
+                    <iframe src="http://player.vimeo.com/video/30585464?title=0&amp;byline=0">
+							</iframe>
+                  </div>
+                  <ul class="post-meta">
+                    <li class="first"><i class="icon-calendar"></i><span>Feb 13, 2013</span></li>
+                    <li><i class="icon-comments"></i><span><a href="#">5 comments</a></span></li>
+                    <li class="last"><i class="icon-tags"></i><span><a href="#">Design</a>, <a href="#">Blog</a>, <a href="#">Tutorial</a></span></li>
+                  </ul>
+                  <div class="clearfix">
+                  </div>
+                  <p>
+                    Ei eos suavitate forensibus mnesarchum. Eu est timeam vocibus, an nostro aliquam adipiscing quo. Zril equidem et quo, ad albucius scripserit sit. Vis constituto deseruisse an, interesset reprehendunt et mel, gloriatur concludaturque pro no. At ludus mediocritatem
+                    qui, no vituperata assueverit.
+                  </p>
+                  <a href="#" class="btn btn-small btn-theme">Read more</a>
+                </div>
+              </div>
+            </article>
+            <!-- end article 2 -->
+            <!-- start article 3 -->
+            <article class="blog-post">
+              <div class="post-heading">
+                <h3><a href="#">Great blog post with quote post format</a></h3>
+              </div>
+              <div class="row">
+                <div class="span8">
+                  <div class="post-quote">
+                    <blockquote>
+                      <p>
+                        <i class="icon-quote-left"></i> Lorem ipsum dolor sit amet, vidit postea ex nec, tantas eruditi conceptam eu vim
+                      </p>
+                    </blockquote>
+                  </div>
+                  <a href="#" class="btn btn-small btn-theme">Read more</a>
+                </div>
+              </div>
+            </article>
+            <!-- end article 3 -->
+            <div class="pagination">
+              <ul>
+                <li><a href="#">Prev</a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">Next</a></li>
+              </ul>
             </div>
           </div>
         </div>
-
       </div>
     </section>
     <!-- Footer
@@ -413,7 +360,6 @@
   </div>
   <!-- end wrapper -->
   <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
-
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/raphael-min.js"></script>
   <script src="assets/js/jquery.easing.1.3.js"></script>
@@ -429,4 +375,5 @@
   <script src="assets/js/custom.js"></script>
 
 </body>
+
 </html>
