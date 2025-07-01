@@ -1,0 +1,157 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.menu-list {
+    display: flex;
+    margin: 0;
+}
+
+.nav-menu {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-menu ul li:hover {
+    background-color: #5deca9;
+    cursor: pointer;
+}
+
+.nav-menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 18px;
+    align-self: center;
+}
+
+.main-content {
+    margin: 0 10%;
+    padding: 20px;
+}
+
+.intro-1 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.avata img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #bebebe;
+}
+
+.hello {
+    background-color: #0bceaf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: max-content;
+    padding: 10px 14px;
+    border-radius: 20px 20px 20px 0;
+}
+
+.intro-content .name {
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #444444;
+}
+
+.intro-content .role {
+    font-size: 20px;
+    font-weight: 600;
+    color: #797979;
+}
+
+.intro-2 .coding-img img {
+    width: 400px;
+}
+
+.intro-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-2 .about-me {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.intro-2 .about-me h2 {
+    color: #0c0c0c;
+}
+
+.tech-item {
+    border: 1px solid #0bbde9;
+    padding: 5px 8px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+
+.tech-item-2 {
+    border: 1px solid #e7bf0b;
+    padding: 5px 8px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.tech-item-3 {
+    border: 1px solid #e7510b;
+    padding: 5px 8px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.tech-item-container {
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.tech-item-container li {
+    margin-top: 10px;
+    list-style-type: none;
+
+}
+
+.tech-item-container li:hover {
+    background-color: #a7ebf7;
+}
+
+.about-me .detail {
+    line-height: 26px;
+}
+
+.fe-icon {
+    max-width: 26px;
+}
+
+.what-do {
+    margin: 200px 0;
+}
+
+.what-do h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #272727;
+}
